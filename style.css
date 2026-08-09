@@ -1,0 +1,164 @@
+```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    /* RED BACKGROUND */
+    background-color: #b3133f;
+
+    /* LITTLE WHITE HEARTS */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Ctext x='15' y='25' font-size='14' fill='white'%3E♥%3C/text%3E%3Ctext x='80' y='45' font-size='9' fill='white'%3E♥%3C/text%3E%3Ctext x='45' y='90' font-size='12' fill='white'%3E♥%3C/text%3E%3Ctext x='100' y='105' font-size='7' fill='white'%3E♥%3C/text%3E%3C/svg%3E");
+
+    background-size: 120px 120px;
+}
+
+
+/* CENTER CARD */
+.question-screen {
+    width: 500px;
+    max-width: 90%;
+
+    padding: 55px 40px;
+
+    background: white;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+/* TOP HEART */
+.heart {
+    font-size: 75px;
+    color: #b3133f;
+
+    margin-bottom: 10px;
+}
+
+
+/* HEADING */
+h1 {
+    margin: 10px 0;
+
+    font-size: 38px;
+
+    color: #b3133f;
+}
+
+
+/* QUESTION */
+p {
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #555;
+
+    margin: 20px 0 30px;
+}
+
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* ALL BUTTONS */
+button {
+    padding: 14px 25px;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+
+/* YES BUTTON */
+#yesButton {
+    background: #b3133f;
+    color: white;
+}
+
+
+/* NO BUTTON */
+#noButton {
+    background: #eeeeee;
+    color: #555;
+}
+```
+
+#continueButton {
+    background: #b3133f;
+    color: white;
+
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: transform 0.2s, background 0.2s;
+}
+
+#continueButton:hover {
+    transform: scale(1.08);
+    background: #8f0f32;
+}
+/* ================================
+   ALL WEBSITE BUTTONS
+================================ */
+
+button {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 20, 147, 0.3);
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(255, 20, 147, 0.4);
+}
+.couple-photo {
+    width: 250px;
+    max-width: 80%;
+    border-radius: 20px;
+    margin: 10px auto 5px;
+    display: block;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
