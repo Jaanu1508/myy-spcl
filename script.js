@@ -130,7 +130,7 @@ yesButton.addEventListener("click", function () {
                         <h1>Our Next Chapter... ❤️</h1>
 
                         <img
-                            src="images/photo 1.jpeg"
+                            src="Photo 1.jpeg"
                             class="couple-photo"
                         >
 
@@ -336,11 +336,11 @@ yesButton.addEventListener("click", function () {
                                                 Boys medha nammakam ledhu...aa surya vala motham nammakam poindhi...asalu evaritho odhu anukuna...asalu frndshps odhu rlnshps odhu asalu manushule odhu ani depress ayipoya...alantapudu nuvu vachavu ninu nammale nenu...meet ayamu kiss cheskunamu bane unamu but nana nuvu vachaka motham maripoindhi na lyf lo...
                                                 Happy ga unde dhani...heartful ga navve dhani 😘...manushulatho kalavadam start chesa...nammakam vasthundhi😘...nuvu nenu 1st tym byt ki vellindhi vjd ki 😙...tharvatha oka chinna drive ki vellamu 👐🏻...tharvatha nanu bike medha intiki drop chesavu🤓...annitilo baga gurthu undhi enti ante...beach chala istam naku😋...aa roju netho aa tym spend chyadam chala nachindhi naku...chaala haayiga anipichindhi...netho nenu na laga undagalanu nana...aa roju entha happyyyy anpichindhii ante chpalenuu words lo...chalaaaaa ante chalaaaaaaaaaa...
                                                 Nalo una chinna pilaa ne degara vachindhi aa rojuu😩...chusava ela undedhani ela ayipoyanoooo
-                           <p>
+                                            </p>
+                   
     <button id="finalButton">
         nextuuuu :)
     </button>
-</p>
 
 `;
 
@@ -397,16 +397,16 @@ videoYesButton.addEventListener("click", function () {
             Chudu nana... ❤️
         </p>
 
-        <video
-            controls
-            playsinline
-            class="memory-video"
-        >
-            <source
-                src="videos/our-video.mp4"
-                type="video/mp4"
-            >
-        </video>
+       <video
+    controls
+    playsinline
+    class="memory-video"
+>
+    <source
+        src="our-video.mp4"
+        type="video/mp4"
+    >
+</video>
 
         <br><br>
 
